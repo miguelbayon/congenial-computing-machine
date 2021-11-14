@@ -18,5 +18,8 @@ public class App
         System.out.println("Introduce tu nombre: ");
         String nombre = scanner.nextLine();
         System.out.println("Hola " + nombre);
+        System.out.println("Introduce tu edad: ");
+        int edad = scanner.nextInt();
+        System.out.println("Te quedan " + (100 - edad) + " años para cumplir 100!!");
     }
 }
