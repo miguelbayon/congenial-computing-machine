@@ -21,5 +21,15 @@ public class App
         System.out.println("Introduce tu edad: ");
         int edad = scanner.nextInt();
         System.out.println("Te quedan " + (100 - edad) + " años para cumplir 100!!");
+        System.out.println("¿Eres un chico? (true/false)");
+        boolean esChico = scanner.nextBoolean();
+        if (esChico) {
+            System.out.println("Hola, me encanta hablar con un chico!");
+        }
+        else 
+        {
+            System.out.println("Hola, me apasiona charlar con una chica!");
+        }
+            
     }
 }
