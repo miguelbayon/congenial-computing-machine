@@ -26,6 +26,13 @@ public class Persona
      */
     public void saludar()
     {
-        System.out.println("Hola, me llamo " + nombre + ", tengo " + edad + " años y soy un ");
+        System.out.print("Hola, me llamo " + nombre + ", tengo " + edad + " años y soy ");
+        if (esChico) {
+            System.out.println("un chico");    
+        }
+        else {
+            System.out.println("una chica");
+        }
+        
     }
 }
